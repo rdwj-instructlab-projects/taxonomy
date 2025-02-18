@@ -1,0 +1,14 @@
+version: 2
+task_description: 'Teach the model how to find clinical practice guidance from US Department of Veterans Affairs (VA) documentation for hypertension.'
+created_by: wesjackson
+seed_examples:
+  - question: For Home Blood Pressure Measurement, what is a recommendation for the cuff?
+    answer: Use an upper-arm cuff oscillometric device that has been validated.
+  - question: For Office Blood Pressure Measurement, what is a recommendation for patient preparation?
+    answer: Ensure that the patient has emptied his/her bladder.
+  - question: When initiating drug therapy, what is one of the recommended drugs?
+    answer: Recommend one or more of the following, Thiazide-type diuretics, ACEIs or ARBs, Long-acting CCBs.
+  - question: What is a recommendation to optimize treatment?
+    answer: Consider evaluating for interfering substances.
+  - question: Is Amlodipine a better option for certain groups?
+    answer: Some groups had greater adherence to treatment and required fewer medications to reach the blood pressure goal.

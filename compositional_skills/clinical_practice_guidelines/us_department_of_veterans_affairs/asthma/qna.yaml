@@ -1,0 +1,14 @@
+version: 2
+task_description: 'Teach the model how to find clinical practice guidance from US Department of Veterans Affairs (VA) documentation for asthma.'
+created_by: wesjackson
+seed_examples:
+  - question: What is the recommendation for patients with moderate-to-severe asthma and significant symptom burden?
+    answer: We suggest offering a combination of inhaled corticosteroid and long-acting beta agonist.
+  - question: What is the recommendation for patients with asthma not controlled by inhaled corticosteroids alone?
+    answer: We suggest adding longacting beta agonists as a step-up treatment over increasing corticosteroids alone.
+  - question: How should we treat patients with controlled asthma on a stable medication regimen?
+    answer: We suggest either stepping down inhaled corticosteroids dose or discontinuing long-acting beta agonists.
+  - question: How should we treat exercise-induced asthma or bronchospasm?
+    answer: We suggest short-acting beta agonists or leukotriene receptor antagonists.
+  - question: How can we improve quality of life for asthma patients?
+    answer: We suggest a multidisciplinary treatment approach to improve asthma-related quality of life.

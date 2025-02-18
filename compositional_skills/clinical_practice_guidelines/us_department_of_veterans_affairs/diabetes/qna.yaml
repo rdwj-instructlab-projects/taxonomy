@@ -1,0 +1,14 @@
+version: 2
+task_description: 'Teach the model how to find clinical practice guidance from US Department of Veterans Affairs (VA) documentation for diabetes milletus.'
+created_by: wesjackson
+seed_examples:
+  - question: Are GLP-1 agonists (glucagon-pike peptide-1 receptor agonists) ever recommended by VA?
+    answer: For adults with type 2 diabetes with cardiovascular disease, we recommend GLP-1 agonists.
+  - question: Shoud we assess diabetes patients for fall risk?
+    answer: There is insufficient evidence to recommend for or against routine screening for fall risk.
+  - question: What is the approach to setting HbA1c target range for a patient?
+    answer: We suggest setting an individualized HbA1c target range based on the clinician's appraisal.
+  - question: Is there a specific HbA1c range that most patients should be in?
+    answer: We suggest an HbA1c range of 7.0-8.5% for most patients, if it can be safely achieved.
+  - question: Is a specific dietery lifestyle recommended for diabetes patients?
+    answer: For adults with type 2 diabetes, we suggest a Mediterranean style diet.
